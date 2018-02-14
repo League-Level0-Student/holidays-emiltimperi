@@ -4,7 +4,7 @@ public class ValentinesDay {
 public static void main(String[] args) {
 	Robot heart = new Robot();
 	heart.hide();
-	heart.setWindowImage("hearts.jpg");
+	heart.setWindowImage("heart.jpg");
 	heart.setSpeed(50);
 	heart.moveTo(450, 450);
 	heart.setAngle(23);
